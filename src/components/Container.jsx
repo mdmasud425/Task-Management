@@ -1,8 +1,8 @@
 
 function Container(props) {
   return (
-    <div className="max-w-screen-lg m-auto">{props.children}</div>
+    <div className={`max-w-screen-xl m-auto px-3 ${props.className}`}>{props.children}</div>
   )
 }
 
-export default Container;
+export default Container

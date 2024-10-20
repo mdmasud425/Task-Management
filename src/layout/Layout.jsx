@@ -1,12 +1,19 @@
-import Container from "../components/Container";
+
+import Banner from "../sections/banner/Banner";
+import Footer from "../sections/footer/Footer";
+import Header from "../sections/header/Header";
+
+
 
 
 function Layout() {
   return (
-      <Container>
-        <div>something</div>
-      </Container>
-  )
+    <>
+    <Header />
+    <Banner />
+    <Footer />
+    </>
+  ) 
 }
 
 export default Layout;
